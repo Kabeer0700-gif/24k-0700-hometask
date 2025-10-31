@@ -51,13 +51,13 @@ public:
 
 int main() {
     BinaryTree TREE;
-    TREE.root = TREE.createNode(5);
-    TREE.root->left = TREE.createNode(3);
-    TREE.root->right = TREE.createNode(8);
+    TREE.root = TREE.createNode(10);
+    TREE.root->left = TREE.createNode(6);
+    TREE.root->right = TREE.createNode(4);
     TREE.root->left->left = TREE.createNode(2);
-    TREE.root->left->right = TREE.createNode(4);
-    TREE.root->right->left = TREE.createNode(6);
-    TREE.root->right->right = TREE.createNode(10);
+    TREE.root->left->right = TREE.createNode(8);
+    TREE.root->right->left = TREE.createNode(7);
+    TREE.root->right->right = TREE.createNode(5);
 
     int target;
     cout << "Enter target sum: ";
