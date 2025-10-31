@@ -76,7 +76,7 @@ int main() {
     string name, parent;
     char side;
 
-    cout << "===== TOUR PACKAGE MANAGEMENT SYSTEM =====" <<endl;
+    cout << "------ TOUR PACKAGE MANAGEMENT SYSTEM --------" <<endl;
     do {
         cout << "\n1. Create Root Package"
              << "\n2. Add New Package "
